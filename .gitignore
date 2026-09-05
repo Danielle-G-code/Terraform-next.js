@@ -1,0 +1,17 @@
+# State files - stored remotely in S3
+*.tfstate
+*.tfstate.backup
+
+# Terraform directories
+.terraform/
+
+# Variable files - may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# OS files
+.DS_Store
